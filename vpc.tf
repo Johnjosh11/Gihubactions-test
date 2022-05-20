@@ -3,10 +3,10 @@ variable "region" {
   description = "AWS region"
 }
 # provide the profile of aws account you have created using aws configure
-provider "aws" {
-  region  = var.region
-  profile = "imgn-devops"
-}
+#provider "aws" {
+# region  = var.region
+# profile = "imgn-devops"
+#}
 
 
 data "aws_availability_zones" "available" {}
