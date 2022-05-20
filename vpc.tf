@@ -1,11 +1,11 @@
-variable "region" {
+ variable "region" {
   default     = "eu-west-1"
   description = "AWS region"
 }
 # provide the profile of aws account you have created using aws configure
 provider "aws" {
-  region = var.region
-  profile                  = "imgn-devops"
+  region  = var.region
+  profile = "imgn-devops"
 }
 
 
