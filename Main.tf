@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket-test" {
-  bucket = "bucket-test"
+  bucket = "bucket-test-johnp"
   lifecycle {
     prevent_destroy = true
   }
